@@ -1,0 +1,71 @@
+#irnks-php-code-tester{
+	position:fixed;
+	position: fixed;
+  bottom: 0;
+  z-index: 9999999;
+  width: 100%;
+  background: #272822;
+
+  .irnks-php-code-tester-learn-more{
+    transition: all 0.3s ease;
+    margin-left: 10px;
+    color: #e6e6e6;
+    font-size: 12px;
+    padding: 2px 10px;
+    background: #2296f3;
+    border-radius: 5px;
+
+    &:hover{
+      background:#1462a0;
+    }
+  }
+
+  #irnks-php-code-tester-fallback-form{
+    display:none;
+    visibility: hidden;
+  }
+
+  .irnksphpt-resize{
+    background: #f2592a;
+    color: #fff;
+    padding: 0 15px;
+    cursor: grab;
+    height: 35px;
+    display: flex;
+    align-items: center;
+  }
+
+  .irnks-php-code-tester-actions{
+
+    display:flex;
+    position: absolute;
+    z-index: 999;
+    right: 0;
+    top: 0;
+
+    .irnks-action-button{
+      transition: all 0.3s ease;
+      padding: 0 12px;
+      background: #2196F3;
+      color: #fff;
+      cursor: pointer;
+      height: 35px;
+      display: flex;
+      align-items: center;
+      border-right:1px solid #272823;
+  
+      &:hover{
+        background:#3176ad;
+      }
+  
+      &:last-of-type{
+        border-right:0;
+      }
+    }
+
+  }
+
+  .CodeMirror{
+    height:100%;
+  }
+}
